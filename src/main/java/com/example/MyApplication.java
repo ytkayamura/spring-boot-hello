@@ -9,15 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class MyApplication {
 
-    @RequestMapping("/")
-    String home() {
-        return "Hello World!";
-    }
+  @RequestMapping("/")
+  String home() {
+    return new Hoge().str();
+  }
 
-    public static void main(String[] args) {
-        SpringApplication.run(MyApplication.class, args);
-    }
-
+  public static void main(String[] args) {
+    SpringApplication.run(MyApplication.class, args);
+  }
 }
-
-
