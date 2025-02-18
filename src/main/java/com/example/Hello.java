@@ -1,7 +1,7 @@
 package com.example;
 
-public class Hoge {
+public class Hello {
   public String str() {
-    return "hoge";
+    return "hello";
   }
 }

@@ -11,7 +11,7 @@ public class MyApplication {
 
   @RequestMapping("/")
   String home() {
-    return new Hoge().str();
+    return new Hello().str();
   }
 
   public static void main(String[] args) {
